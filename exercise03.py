@@ -85,6 +85,11 @@ union_table.where(col("product_id") == 0).show()
 
 # ==============
 
+# Windows in pySpark 
+# https://medium.com/@sergey.ivanchuk/practical-pyspark-window-function-examples-cb5c7e1a3c41
+# https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html
+
+
 # Output:
 # +----------+---------+--------------------+                                     
 # |product_id|seller_id|                type|

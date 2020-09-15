@@ -35,6 +35,12 @@ print(sales_table.join(broadcast(sellers_table), sales_table["seller_id"] == sel
 
 # ======
 
+# Observation:
+# This could generate a skewed join, since even the sellers are not evenly distributed. 
+# In this case, though, the solution is much simpler. Since the sellers table is very small, we can broadcast it, 
+# making the operations much faster.
+
+# == 
 # Output:
 # +---------+--------------------+                                                
 # |seller_id|          avg(ratio)|
