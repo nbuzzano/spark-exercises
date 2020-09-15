@@ -5,3 +5,22 @@ Because of that, a lot of comments in the files can be found, they're aimed to m
 
 ### generator.py
 Please run this file to re-create the data which I use to solve this exercises.
+
+### PySpark installation
+
+\#create python env and activate it
+
+>conda create -n pyspark_env python=3
+
+>source activate pyspark_env
+
+\#install pyspark libs
+
+>pip install findspark 
+
+>pip install pyspark
+
+\#install java in order to run JVM (required by Spark)
+
+>brew cask install java
+
