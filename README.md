@@ -8,19 +8,20 @@ Please run this file to re-create the data which I use to solve this exercises.
 
 ### PySpark installation
 
-\#create python env and activate it
+1. create python env and activate it
 
->conda create -n pyspark_env python=3
+`conda create -n pyspark_env python=3`
 
->source activate pyspark_env
+`source activate pyspark_env`
 
-\#install pyspark libs
 
->pip install findspark 
+2. install pyspark libs
 
->pip install pyspark
+`pip install findspark`
 
-\#install java in order to run JVM (required by Spark)
+`pip install pyspark`
 
->brew cask install java
+3. install java in order to run JVM (required by Spark)
+
+`brew cask install java`
 
